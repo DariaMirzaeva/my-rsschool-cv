@@ -1,0 +1,274 @@
+@media (min-width: 1200px) and (max-width: 1499px) {
+    .slider__img {
+        max-width: 350px;
+    }
+
+    .favorites__wrap {
+        gap: 40px 130px;
+    }
+
+    .favorites__wrap .favorites-card {
+        flex-basis: 465px;
+    }
+
+    .library-card__item {
+        padding-right: 20px;
+    }
+
+    .library-card__item_right {
+        padding-right: 0;
+    }
+}
+
+@media screen and (max-width: 1199px) {
+    .menu-button {
+        display: flex;
+    }
+
+    .nav {
+        position: absolute;
+        top: 100%;
+        right: -332px;
+        z-index: 111;
+
+        flex-direction: column;
+        align-items: stretch;
+
+        min-width: 332px;
+        padding: 10px 20px 100px;
+
+        background: var(--color-primary);
+
+        transition: right 0.3s linear;
+    }
+
+    .nav.open {
+        right: 0;
+    }
+
+    .nav__link {
+        text-align: center;
+    }
+
+    .profile {
+        margin-left: auto;
+    }
+
+    .slider__img {
+        max-width: 290px;
+    }
+
+    .favorites__wrap .favorites-card {
+        flex-grow: 1;
+    }
+
+    .shop__wrap {
+        flex-wrap: wrap;
+    }
+
+    .shop__item_right {
+        margin-left: auto;
+    }
+
+    .contacts__item_info {
+        padding-right: 20px;
+    }
+
+    .library-card__item {
+        padding-right: 20px;
+    }
+
+    .library-card__item_right {
+        padding-left: 20px;
+        padding-right: 0;
+    }
+}
+
+@media screen and (max-width: 991px) {
+    .wrapper, .container {
+        overflow: clip;
+    }
+
+    .radio-bar {
+        position: sticky;
+        top: 0;
+        z-index: 10;
+        padding: 5px 0;
+
+        background: var(--color-base);
+    }
+
+    .slider__wrap {
+        justify-content: center;
+        margin-bottom: 20px;
+    }
+
+    .slider__img {
+        max-width: 450px;
+        height: 560px;
+    }
+
+    .slider__img:not(.slider__img:first-child) {
+        display: none;
+    }
+
+    .slider__pagination-item:nth-last-of-type(1),
+    .slider__pagination-item:nth-last-of-type(2) {
+        display: flex;
+    }
+
+    .slider__navigation {
+        display: flex;
+    }
+
+    .favorites__wrap {
+        justify-content: center;
+    }
+
+    .favorites__wrap .favorites-card {
+        flex-grow: 0;
+        min-height: 555px;
+    }
+
+    .shop__wrap {
+        gap: 40px;
+    }
+
+    .contacts__wrap {
+        flex-wrap: wrap;
+    }
+
+    .contacts__item {
+        flex: 1 0 100%;
+        padding: 0 15px;
+    }
+
+    .contacts__item_info {
+        margin-bottom: 75px;
+        padding: 0;
+    }
+
+    .library-card__wrap {
+        flex-wrap: wrap;
+    }
+
+    .library-card__item {
+        flex: 1 0 100%;
+        padding: 0;
+    }
+
+    .library-card__form {
+        max-width: 600px;
+        margin: 0 auto;
+    }
+
+    .library-card__item_right {
+        margin-top: 20px;
+        text-align: center;
+    }
+
+    .library-card__item_right .library-card__title {
+        text-align: center;
+    }
+
+    .library-card__text {
+        padding: 0 75px;
+    }
+
+    .library-card__buttons {
+        justify-content: center;
+        margin-top: 45px;
+    }
+}
+
+@media screen and (max-width: 730px) {
+
+    .slider__img {
+        max-width: 280px;
+        height: auto;
+    }
+
+    .radio-bar__group {
+        flex-wrap: wrap;
+        gap: 30px;
+    }
+}
+
+@media screen and (max-width: 575px) {
+    .logo {
+        font-size: 12px;
+        line-height: 20px;
+    }
+
+    .swiper-wrapper {
+        padding-bottom: 50px;
+    }
+
+    .slider__navigation {
+        display: none;
+    }
+
+    .radio-bar__group {
+        gap: 5px 20px;
+    }
+
+    .radio-bar__label {
+        padding-left: 25px;
+        font-size: 15px;
+    }
+
+    .favorites__wrap {
+        gap: 15px;
+        padding-right: 0;
+    }
+
+    .favorites__wrap .favorites-card {
+        flex: 1 1 100%;
+    }
+
+    .favorites-card__description {
+        padding: 0;
+    }
+
+    .favorites-card__img {
+        display: none;
+    }
+
+    .menu-list__item {
+        font-size: 16px;
+        line-height: 20px;
+    }
+
+    .menu-list__devider {
+        width: 30px;
+        margin: 0 15px;
+    }
+
+    .library-card__form {
+        padding: 5px 5px 10px;
+    }
+
+    .library-card__form-wrap {
+        padding: 15px;
+    }
+
+    .library-card__text {
+        padding: 0;
+    }
+
+    .library-card__form .form-input {
+        font-size: 16px;
+        line-height: 30px;
+    }
+
+    .library-card__form .form-input::placeholder {
+        font-size: 16px;
+    }
+
+    .footer__contacts,
+    .footer__info {
+        flex-direction: column;
+        gap: 15px;
+    }
+}
+
